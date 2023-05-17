@@ -1,0 +1,167 @@
+body{
+    padding: 0%;
+    margin: auto;
+    width: 90%;
+}
+.contacts-top{
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+.contacts{
+    /* display:flex; */
+    font-size: 24px;
+    margin-top: 1em;
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid #6166CE; */
+}
+.button {
+    background-color: #E0E1FF; 
+    border: none;
+    color: #6166CE;
+    padding: 13px 30px;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    margin: 14px 0;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 8px;
+}
+/* .add{
+    background-color:#E0E1FF ;
+    color: #6166CE;
+    font-size: 20px;
+    padding: 0 3rem ;
+    border: 1px solid black;
+    cursor: pointer;
+} */
+/* .firstcontact{
+    display: flex;
+    justify-content: space-between;
+} */
+.search{
+    border: 1px solid #6166CE;
+    padding: 0.8em 0.7em;
+    font-size: 18px;
+    text-align: center;
+    width: 20em;
+    border-radius: 8px;
+    /* color: #6166CE; */
+}
+.search::placeholder{
+    color: #6166CE;
+}
+.figs{
+    display: flex;
+    /* gap: 0%; */
+}
+figure{
+    margin: auto;
+    /* justify-content: space-between; */
+}
+.pcontacts{
+    font-size: 20px;
+}
+
+.logs1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-photos{
+    margin-left: auto; 
+    display: flex;
+    gap: 1.4em;
+}
+.button2 {
+    background-color: #E0E1FF; 
+    border: none;
+    border-radius: 9px;
+    color: #6166CE;
+    padding: 18px 33px;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 15px;
+    /* /* margin: 4px 2px; *\ */
+    cursor: pointer;
+}
+.button3 {
+    background-color: #EED8FF; 
+    border: none;
+    border-radius: 9px;
+    color: #6166CE;
+    padding: 18px 50px;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    font-weight:500;
+    gap: 10px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+.button-icon{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+.button4 {
+    background-color: #E0E1FF; 
+    border: none;
+    color: #6166CE;
+    padding: 13px 30px;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    /* gap: 10px; */
+    margin-top: 17px;
+    cursor: pointer;
+}
+.mariaimg{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    margin: auto;
+    width: 30%;
+}
+.mariaimg img{
+    width: 120px;
+}
+.mariaimg figcaption{
+    font-size: 20px;
+}
+.search3{
+    border: #6166CE 1px solid;
+    padding: 1.2em;
+    border-radius: 8px;
+    width: 90%;
+} 
+.section2-contacts{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.section2-coloredtexts{
+    color: #6166CE;
+    font-size: 1.5em;
+    font-family:Georgia;
+}
+.picture-contact{
+    display: flex;
+    gap: 20px;
+    /* width: auto; */
+}
+.condes{
+    font-family: Georgia;
+}
+.condess{
+    margin-top: 60px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 200;
+}
