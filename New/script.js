@@ -1,26 +1,20 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const createContactForm = document.getElementById('createContactForm')
+    console.log('Page Loaded')
 
-    createContactForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const contact = createContactForm.elements['contactName'].value;
-        const phone = createContactForm.elements['phone'].value;
-        const work = createContactForm.elements['work'].value;
-        const address = createContactForm.elements['address'].value;
+    const demo = getFromStorage('phonebook')
 
-        console.log(contact, phone, work, address)
+    const contactsElement = document.getElementById('contacts-list')
+
+    demo.forEach((c) => {
+        contactsElement.innerHTML += `
+        <a href="contacts.html?id=${c.id}" class="logs1" id="${c.phoneNumber}">
+            <img src="grandma.svg" alt="grandma" width="40" height="40" />
+            <p>${c.contactName}</p>
+            <div class="contact-photos">
+                <img src="star.svg" alt="Star" />
+                <img src="phone.svg" alt="phone" />
+                <img src="email.svg" alt="email" />
+            </div>
+        </a>`
     })
-
-
-
-    // function dataGet() {
-    //     const contactName = document.getElementById("contactName").value;
-    //     const phone = document.getElementById("phone").value;
-    //     const work = document.getElementById("work").value;
-    //     const address = document.getElementById("address").value
-
-    //     // console.log("dumb bitch")
-    //     console.log(contactName, phone)
-    //     console.log(work, address)
-    // };
-})
+});
